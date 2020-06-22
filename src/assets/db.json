@@ -4,17 +4,13 @@
       "id": 1,
       "name": "Battle Wrench",
       "description": "Big wrench. Looks painful.",
-      "item": "wrench",
+      "type": "wrench",
       "character": "max",
       "abs": 32,
       "sp": 3,
       "combo": 5,
-      "type": "",
+      "attack_type": "",
       "ability": [],
-      "build_up": [
-        "Drill Wrench",
-        "True Battle Wrench"
-      ],
       "base_stats": {
         "at": 8,
         "fl": 2,
@@ -44,16 +40,15 @@
       "id": 2,
       "name": "Big Bucks Hammer",
       "description": "Odd hammer that makes the user rich.",
-      "item": "wrench",
+      "type": "wrench",
       "character": "max",
       "abs": 288,
       "sp": 4,
       "combo": 4,
-      "type": "",
+      "attack_type": "",
       "ability": [
-        "Wealth"
+        "wealth"
       ],
-      "build_up": [],
       "base_stats": {
         "at": 44,
         "fl": 0,
@@ -83,17 +78,14 @@
       "id": 3,
       "name": "Cubic Hammer",
       "description": "Powerful. Sharp corners. Delivers heavy damage.",
-      "item": "wrench",
+      "type": "wrench",
       "character": "max",
       "abs": 224,
       "sp": 4,
       "combo": 4,
-      "type": "",
+      "attack_type": "",
       "ability": [
-        "Durable"
-      ],
-      "build_up": [
-        "Digi Hammer"
+        "durable"
       ],
       "base_stats": {
         "at": 57,
@@ -124,16 +116,13 @@
       "id": 4,
       "name": "Digi Hammer",
       "description": "High-tech hammer designed for efficient attack.",
-      "item": "wrench",
+      "type": "wrench",
       "character": "max",
       "abs": 288,
       "sp": 4,
       "combo": 4,
-      "type": "",
+      "attack_type": "",
       "ability": [],
-      "build_up": [
-        "Heavy Hammer"
-      ],
       "base_stats": {
         "at": 90,
         "fl": 0,
@@ -163,16 +152,13 @@
       "id": 5,
       "name": "Drill Wrench",
       "description": "Wrench with a drill attached.",
-      "item": "wrench",
+      "type": "wrench",
       "character": "max",
       "abs": 64,
       "sp": 3,
       "combo": 5,
-      "type": "",
+      "attack_type": "",
       "ability": [],
-      "build_up": [
-        "Smash Wrench"
-      ],
       "base_stats": {
         "at": 16,
         "fl": 2,
@@ -202,17 +188,13 @@
       "id": 6,
       "name": "Frozen Tuna",
       "description": "Frozen like a rock. You can't eat it. Use it as a weapon.",
-      "item": "wrench",
+      "type": "wrench",
       "character": "max",
       "abs": 160,
       "sp": 4,
       "combo": 4,
-      "type": "",
+      "attack_type": "",
       "ability": [],
-      "build_up": [
-        "Cubic Hammer",
-        "Big Bucks Hammer"
-      ],
       "base_stats": {
         "at": 33,
         "fl": 0,
@@ -242,14 +224,13 @@
       "id": 7,
       "name": "Grade Zero",
       "description": "Rolls attack points all the way around to zero again.",
-      "item": "wrench",
+      "type": "wrench",
       "character": "max",
       "abs": 416,
       "sp": 6,
       "combo": 5,
-      "type": "",
+      "attack_type": "",
       "ability": [],
-      "build_up": [],
       "base_stats": {
         "at": 150,
         "fl": 100,
@@ -279,16 +260,13 @@
       "id": 8,
       "name": "Heavy Hammer",
       "description": "Battle hammer that packs a heavy wallop.",
-      "item": "wrench",
+      "type": "wrench",
       "character": "max",
       "abs": 352,
       "sp": 6,
       "combo": 4,
-      "type": "",
+      "attack_type": "",
       "ability": [],
-      "build_up": [
-        "LEGEND"
-      ],
       "base_stats": {
         "at": 101,
         "fl": 0,
@@ -318,17 +296,14 @@
       "id": 9,
       "name": "Kubera's Hand",
       "description": "Hammer in the shape of the god Kubera's hand.",
-      "item": "wrench",
+      "type": "wrench",
       "character": "max",
       "abs": 128,
       "sp": 3,
       "combo": 5,
-      "type": "",
+      "attack_type": "",
       "ability": [
-        "Steal"
-      ],
-      "build_up": [
-        "Big Bucks Hammer"
+        "steal"
       ],
       "base_stats": {
         "at": 22,
@@ -359,14 +334,13 @@
       "id": 10,
       "name": "LEGEND",
       "description": "Legendary hammer whose very existence was in doubt.",
-      "item": "wrench",
+      "type": "wrench",
       "character": "max",
       "abs": 416,
       "sp": 6,
       "combo": 4,
-      "type": "",
+      "attack_type": "",
       "ability": [],
-      "build_up": [],
       "base_stats": {
         "at": 150,
         "fl": 0,
@@ -396,17 +370,14 @@
       "id": 11,
       "name": "Poison Wrench",
       "description": "Wrench that can sting the enemy with poison.",
-      "item": "wrench",
+      "type": "wrench",
       "character": "max",
       "abs": 288,
       "sp": 4,
       "combo": 5,
-      "type": "",
+      "attack_type": "",
       "ability": [
-        "Poison"
-      ],
-      "build_up": [
-        "Sigma Breaker"
+        "poison"
       ],
       "base_stats": {
         "at": 88,
@@ -437,17 +408,13 @@
       "id": 12,
       "name": "Smash Wrench",
       "description": "Powerful wrench that smashes monsters to pieces.",
-      "item": "wrench",
+      "type": "wrench",
       "character": "max",
       "abs": 160,
       "sp": 4,
       "combo": 5,
-      "type": "",
+      "attack_type": "",
       "ability": [],
-      "build_up": [
-        "Stinger Wrench",
-        "Cubic Hammer"
-      ],
       "base_stats": {
         "at": 35,
         "fl": 20,
@@ -477,16 +444,13 @@
       "id": 13,
       "name": "Sigma Breaker",
       "description": "Highly functional weapon that splits the damage.",
-      "item": "wrench",
+      "type": "wrench",
       "character": "max",
       "abs": 352,
       "sp": 6,
       "combo": 5,
-      "type": "",
+      "attack_type": "",
       "ability": [],
-      "build_up": [
-        "Grade Zero"
-      ],
       "base_stats": {
         "at": 101,
         "fl": 0,
@@ -516,17 +480,14 @@
       "id": 14,
       "name": "Stinger Wrench",
       "description": "Special wrench that can steal items from the enemy.",
-      "item": "wrench",
+      "type": "wrench",
       "character": "max",
       "abs": 224,
       "sp": 4,
       "combo": 5,
-      "type": "",
+      "attack_type": "",
       "ability": [
-        "Steal"
-      ],
-      "build_up": [
-        "Poison Wrench"
+        "steal"
       ],
       "base_stats": {
         "at": 55,
@@ -557,16 +518,13 @@
       "id": 15,
       "name": "True Battle Wrench",
       "description": "The Battle Wrench, made easier to use in battle.",
-      "item": "wrench",
+      "type": "wrench",
       "character": "max",
       "abs": 32,
       "sp": 3,
       "combo": 5,
-      "type": "",
+      "attack_type": "",
       "ability": [],
-      "build_up": [
-        "Drill Wrench"
-      ],
       "base_stats": {
         "at": 14,
         "fl": 2,
@@ -596,16 +554,13 @@
       "id": 16,
       "name": "Turtle Shell Hammer",
       "description": "Hammer made from a turtle's shell.",
-      "item": "wrench",
+      "type": "wrench",
       "character": "max",
       "abs": 64,
       "sp": 3,
       "combo": 4,
-      "type": "",
+      "attack_type": "",
       "ability": [],
-      "build_up": [
-        "Frozen Tuna"
-      ],
       "base_stats": {
         "at": 11,
         "fl": 0,
@@ -635,17 +590,13 @@
       "id": 17,
       "name": "Bell Trigger",
       "description": "Chaming gun made from a bell. Kind of cute, really.",
-      "item": "gun",
+      "type": "gun",
       "character": "max",
       "abs": 165,
       "sp": 3,
       "combo": 0,
-      "type": "N",
+      "attack_type": "normal",
       "ability": [],
-      "build_up": [
-        "Magic Gun",
-        "Star Breaker"
-      ],
       "base_stats": {
         "at": 24,
         "fl": 0,
@@ -675,16 +626,13 @@
       "id": 18,
       "name": "Classic Gun",
       "description": "Light and easy to use.",
-      "item": "gun",
+      "type": "gun",
       "character": "max",
       "abs": 52,
       "sp": 3,
       "combo": 0,
-      "type": "N",
+      "attack_type": "normal",
       "ability": [],
-      "build_up": [
-        "Trumpet Gun"
-      ],
       "base_stats": {
         "at": 7,
         "fl": 0,
@@ -714,18 +662,14 @@
       "id": 19,
       "name": "Dark Viper",
       "description": "Sucks up and absorbs the effect of enemy attack.",
-      "item": "gun",
+      "type": "gun",
       "character": "max",
       "abs": 265,
       "sp": 4,
       "combo": 0,
-      "type": "G",
+      "attack_type": "grenade_launcher",
       "ability": [
-        "Absorb"
-      ],
-      "build_up": [
-        "Soul Breaker",
-        "Twin Buster"
+        "absorb"
       ],
       "base_stats": {
         "at": 44,
@@ -756,16 +700,13 @@
       "id": 20,
       "name": "Desperado",
       "description": "Vindictive machine gun bent on revenge.",
-      "item": "gun",
+      "type": "gun",
       "character": "max",
       "abs": 430,
       "sp": 6,
       "combo": 0,
-      "type": "M",
+      "attack_type": "machine_gun",
       "ability": [],
-      "build_up": [
-        "Last Resort"
-      ],
       "base_stats": {
         "at": 110,
         "fl": 110,
@@ -795,16 +736,13 @@
       "id": 21,
       "name": "Dryer Gun",
       "description": "Peculiar gun fashioned out of a hair dryer.",
-      "item": "gun",
+      "type": "gun",
       "character": "max",
       "abs": 52,
       "sp": 3,
       "combo": 0,
-      "type": "N",
+      "attack_type": "normal",
       "ability": [],
-      "build_up": [
-        "Bell Trigger"
-      ],
       "base_stats": {
         "at": 12,
         "fl": 5,
@@ -834,16 +772,13 @@
       "id": 22,
       "name": "Grenade Launcher",
       "description": "Allows rapid fire of grenades. A little heavy.",
-      "item": "gun",
+      "type": "gun",
       "character": "max",
       "abs": 165,
       "sp": 3,
       "combo": 0,
-      "type": "G",
+      "attack_type": "grenade_launcher",
       "ability": [],
-      "build_up": [
-        "Dark Viper"
-      ],
       "base_stats": {
         "at": 25,
         "fl": 15,
@@ -873,16 +808,13 @@
       "id": 23,
       "name": "Jurak Gun",
       "description": "Jurak's mystical gun. It's powerful, but a bit plain.",
-      "item": "gun",
+      "type": "gun",
       "character": "max",
       "abs": 165,
       "sp": 3,
       "combo": 0,
-      "type": "B",
+      "attack_type": "beam_gun",
       "ability": [],
-      "build_up": [
-        "Question Shooter"
-      ],
       "base_stats": {
         "at": 42,
         "fl": 0,
@@ -912,14 +844,13 @@
       "id": 24,
       "name": "Last Resort",
       "description": "There's no tomorrow for whoever faces this one.",
-      "item": "gun",
+      "type": "gun",
       "character": "max",
       "abs": 510,
       "sp": 6,
       "combo": 0,
-      "type": "M",
+      "attack_type": "machine_gun",
       "ability": [],
-      "build_up": [],
       "base_stats": {
         "at": 150,
         "fl": 150,
@@ -949,17 +880,13 @@
       "id": 25,
       "name": "Magic Gun",
       "description": "Forms magic power in the atmosphere into bullets.",
-      "item": "gun",
+      "type": "gun",
       "character": "max",
       "abs": 210,
       "sp": 4,
       "combo": 0,
-      "type": "N",
+      "attack_type": "normal",
       "ability": [],
-      "build_up": [
-        "Question Shooter",
-        "Soul Breaker"
-      ],
       "base_stats": {
         "at": 34,
         "fl": 0,
@@ -989,17 +916,14 @@
       "id": 26,
       "name": "Question Shooter",
       "description": "Interrogates the enemy.",
-      "item": "gun",
+      "type": "gun",
       "character": "max",
       "abs": 265,
       "sp": 4,
       "combo": 0,
-      "type": "B",
+      "attack_type": "beam_gun",
       "ability": [
-        "Poverty"
-      ],
-      "build_up": [
-        "Steal Gun"
+        "poverty"
       ],
       "base_stats": {
         "at": 50,
@@ -1030,16 +954,13 @@
       "id": 27,
       "name": "Sexy Panther",
       "description": "A sexy little number. Can't get enough of this one.",
-      "item": "gun",
+      "type": "gun",
       "character": "max",
       "abs": 330,
       "sp": 4,
       "combo": 0,
-      "type": "M",
+      "attack_type": "machine_gun",
       "ability": [],
-      "build_up": [
-        "Desperado"
-      ],
       "base_stats": {
         "at": 77,
         "fl": 80,
@@ -1069,14 +990,13 @@
       "id": 28,
       "name": "Sigma Bazooka",
       "description": "Bazooka that fires rocket bombs.",
-      "item": "gun",
+      "type": "gun",
       "character": "max",
       "abs": 510,
       "sp": 6,
       "combo": 0,
-      "type": "G",
+      "attack_type": "grenade_launcher",
       "ability": [],
-      "build_up": [],
       "base_stats": {
         "at": 149,
         "fl": 140,
@@ -1106,17 +1026,14 @@
       "id": 29,
       "name": "Soul Breaker",
       "description": "Legend says it can smash any living creature's soul.",
-      "item": "gun",
+      "type": "gun",
       "character": "max",
       "abs": 330,
       "sp": 4,
       "combo": 0,
-      "type": "N",
+      "attack_type": "normal",
       "ability": [
-        "Dark"
-      ],
-      "build_up": [
-        "Desperado"
+        "dark"
       ],
       "base_stats": {
         "at": 60,
@@ -1147,16 +1064,13 @@
       "id": 30,
       "name": "Star Breaker",
       "description": "Its trademark is the destroyed star on its side.",
-      "item": "gun",
+      "type": "gun",
       "character": "max",
       "abs": 210,
       "sp": 4,
       "combo": 0,
-      "type": "M",
+      "attack_type": "machine_gun",
       "ability": [],
-      "build_up": [
-        "Wild Cat"
-      ],
       "base_stats": {
         "at": 34,
         "fl": 40,
@@ -1186,17 +1100,14 @@
       "id": 31,
       "name": "Steal Gun",
       "description": "Steals enemy's items. Also called the \"Thief Gun\".",
-      "item": "gun",
+      "type": "gun",
       "character": "max",
       "abs": 430,
       "sp": 6,
       "combo": 0,
-      "type": "B",
+      "attack_type": "beam_gun",
       "ability": [
-        "Steal"
-      ],
-      "build_up": [
-        "Supernova"
+        "steal"
       ],
       "base_stats": {
         "at": 105,
@@ -1227,16 +1138,15 @@
       "id": 32,
       "name": "Supernova",
       "description": "Laser gun that burns as brightly as exploding stars.",
-      "item": "gun",
+      "type": "gun",
       "character": "max",
       "abs": 510,
       "sp": 6,
       "combo": 0,
-      "type": "B",
+      "attack_type": "beam_gun",
       "ability": [
-        "Steal"
+        "steal"
       ],
-      "build_up": [],
       "base_stats": {
         "at": 150,
         "fl": 0,
@@ -1266,17 +1176,13 @@
       "id": 33,
       "name": "Trumpet Gun",
       "description": "Gun made from a trumpet. What'll they think of next?",
-      "item": "gun",
+      "type": "gun",
       "character": "max",
       "abs": 101,
       "sp": 3,
       "combo": 0,
-      "type": "N",
+      "attack_type": "normal",
       "ability": [],
-      "build_up": [
-        "Bell Trigger",
-        "Grenade Launcher"
-      ],
       "base_stats": {
         "at": 15,
         "fl": 0,
@@ -1306,16 +1212,13 @@
       "id": 34,
       "name": "Twin Buster",
       "description": "A double-barreled gun. Twice the power?",
-      "item": "gun",
+      "type": "gun",
       "character": "max",
       "abs": 430,
       "sp": 6,
       "combo": 0,
-      "type": "G",
+      "attack_type": "grenade_launcher",
       "ability": [],
-      "build_up": [
-        "Sigma Bazooka"
-      ],
       "base_stats": {
         "at": 101,
         "fl": 85,
@@ -1345,16 +1248,13 @@
       "id": 35,
       "name": "Wild Cat",
       "description": "Cursed machine gun. Brings out the beast in its user.",
-      "item": "gun",
+      "type": "gun",
       "character": "max",
       "abs": 265,
       "sp": 4,
       "combo": 0,
-      "type": "M",
+      "attack_type": "machine_gun",
       "ability": [],
-      "build_up": [
-        "Sexy Panther"
-      ],
       "base_stats": {
         "at": 57,
         "fl": 60,
@@ -1384,14 +1284,13 @@
       "id": 37,
       "name": "Albatross",
       "description": "Spheda club. Good for long and curved shots.",
-      "item": "club",
+      "type": "club",
       "character": "max",
       "abs": 288,
       "sp": 4,
       "combo": 5,
-      "type": "",
+      "attack_type": "",
       "ability": [],
-      "build_up": [],
       "base_stats": {
         "at": 77,
         "fl": 0,
@@ -1421,17 +1320,14 @@
       "id": 38,
       "name": "Falcon",
       "description": "Spheda club. Good for long shots.",
-      "item": "club",
+      "type": "club",
       "character": "max",
       "abs": 224,
       "sp": 4,
       "combo": 5,
-      "type": "",
+      "attack_type": "",
       "ability": [
-        "Critical"
-      ],
-      "build_up": [
-        "Albatross"
+        "critical"
       ],
       "base_stats": {
         "at": 50,
@@ -1462,16 +1358,13 @@
       "id": 39,
       "name": "Flamingo",
       "description": "Spheda club. Good for medium range and curved shots.",
-      "item": "club",
+      "type": "club",
       "character": "max",
       "abs": 160,
       "sp": 4,
       "combo": 5,
-      "type": "",
+      "attack_type": "",
       "ability": [],
-      "build_up": [
-        "Falcon"
-      ],
       "base_stats": {
         "at": 32,
         "fl": 0,
@@ -1501,14 +1394,13 @@
       "id": 40,
       "name": "Handy Stick",
       "description": "Just the right size for swinging. Good for Spheda?",
-      "item": "club",
+      "type": "club",
       "character": "max",
       "abs": 32,
       "sp": 3,
       "combo": 5,
-      "type": "",
+      "attack_type": "",
       "ability": [],
-      "build_up": [],
       "base_stats": {
         "at": 3,
         "fl": 0,
@@ -1538,17 +1430,14 @@
       "id": 41,
       "name": "Swan",
       "description": "Spheda club. Good for medium range shots.",
-      "item": "club",
+      "type": "club",
       "character": "max",
       "abs": 128,
       "sp": 3,
       "combo": 5,
-      "type": "",
+      "attack_type": "",
       "ability": [
-        "Fragile"
-      ],
-      "build_up": [
-        "Flamingo"
+        "fragile"
       ],
       "base_stats": {
         "at": 24,
@@ -1579,16 +1468,13 @@
       "id": 42,
       "name": "Turkey",
       "description": "Spheda putter. Good for short distances.",
-      "item": "club",
+      "type": "club",
       "character": "max",
       "abs": 128,
       "sp": 3,
       "combo": 5,
-      "type": "",
+      "attack_type": "",
       "ability": [],
-      "build_up": [
-        "Flamingo"
-      ],
       "base_stats": {
         "at": 25,
         "fl": 10,
@@ -1618,14 +1504,13 @@
       "id": 43,
       "name": "7 Branch Sword",
       "description": "Dug up from ancient ruins. Holds a mysterious power.",
-      "item": "sword",
+      "type": "sword",
       "character": "monica",
       "abs": 288,
       "sp": 4,
       "combo": 5,
-      "type": "",
+      "attack_type": "",
       "ability": [],
-      "build_up": [],
       "base_stats": {
         "at": 88,
         "fl": 50,
@@ -1655,16 +1540,13 @@
       "id": 44,
       "name": "7th Heaven",
       "description": "Beautifully ornate sword. He who sees it is captivated.",
-      "item": "sword",
+      "type": "sword",
       "character": "monica",
       "abs": 416,
       "sp": 6,
       "combo": 5,
-      "type": "",
+      "attack_type": "",
       "ability": [],
-      "build_up": [
-        "Island King"
-      ],
       "base_stats": {
         "at": 123,
         "fl": 0,
@@ -1694,17 +1576,13 @@
       "id": 45,
       "name": "Ama no Murakumo",
       "description": "A sword among swords. The strongest of all?",
-      "item": "sword",
+      "type": "sword",
       "character": "monica",
       "abs": 352,
       "sp": 6,
       "combo": 5,
-      "type": "",
+      "attack_type": "",
       "ability": [],
-      "build_up": [
-        "Muramasa",
-        "Dark Cloud"
-      ],
       "base_stats": {
         "at": 99,
         "fl": 0,
@@ -1734,18 +1612,14 @@
       "id": 46,
       "name": "Antique Sword",
       "description": "Ancient sword forged long ago.",
-      "item": "sword",
+      "type": "sword",
       "character": "monica",
       "abs": 224,
       "sp": 4,
       "combo": 5,
-      "type": "",
+      "attack_type": "",
       "ability": [
-        "Stop"
-      ],
-      "build_up": [
-        "7 Branch Sword",
-        "Halloween Blade"
+        "stop"
       ],
       "base_stats": {
         "at": 55,
@@ -1776,14 +1650,13 @@
       "id": 47,
       "name": "Atlamillia Sword",
       "description": "Sword with the power of an Atlamillia.",
-      "item": "sword",
+      "type": "sword",
       "character": "monica",
       "abs": 416,
       "sp": 6,
       "combo": 4,
-      "type": "",
+      "attack_type": "",
       "ability": [],
-      "build_up": [],
       "base_stats": {
         "at": 149,
         "fl": 150,
@@ -1813,16 +1686,13 @@
       "id": 48,
       "name": "Baselard",
       "description": "Big single-edged sword with long reach.",
-      "item": "sword",
+      "type": "sword",
       "character": "monica",
       "abs": 64,
       "sp": 3,
       "combo": 5,
-      "type": "",
+      "attack_type": "",
       "ability": [],
-      "build_up": [
-        "Broad Sword"
-      ],
       "base_stats": {
         "at": 21,
         "fl": 0,
@@ -1852,17 +1722,13 @@
       "id": 49,
       "name": "Bastard Sword",
       "description": "Strong double-edged sword.",
-      "item": "sword",
+      "type": "sword",
       "character": "monica",
       "abs": 128,
       "sp": 3,
       "combo": 5,
-      "type": "",
+      "attack_type": "",
       "ability": [],
-      "build_up": [
-        "Shamshir",
-        "Sand Breaker"
-      ],
       "base_stats": {
         "at": 23,
         "fl": 0,
@@ -1892,16 +1758,13 @@
       "id": 50,
       "name": "Big Bang",
       "description": "Star-powered sword.",
-      "item": "sword",
+      "type": "sword",
       "character": "monica",
       "abs": 352,
       "sp": 6,
       "combo": 4,
-      "type": "",
+      "attack_type": "",
       "ability": [],
-      "build_up": [
-        "Atlamillia Sword"
-      ],
       "base_stats": {
         "at": 101,
         "fl": 120,
@@ -1931,17 +1794,14 @@
       "id": 51,
       "name": "Bone Rapier",
       "description": "Sword made of bone. Its abilities are unknown.",
-      "item": "sword",
+      "type": "sword",
       "character": "monica",
       "abs": 128,
       "sp": 3,
       "combo": 6,
-      "type": "",
+      "attack_type": "",
       "ability": [
-        "Poison"
-      ],
-      "build_up": [
-        "Evilcise"
+        "poison"
       ],
       "base_stats": {
         "at": 22,
@@ -1972,17 +1832,13 @@
       "id": 52,
       "name": "Brave Ark",
       "description": "Legendary sword. All but forgotten.",
-      "item": "sword",
+      "type": "sword",
       "character": "monica",
       "abs": 224,
       "sp": 4,
       "combo": 5,
-      "type": "",
+      "attack_type": "",
       "ability": [],
-      "build_up": [
-        "Claymore",
-        "Ruler's Sword"
-      ],
       "base_stats": {
         "at": 52,
         "fl": 0,
@@ -2012,18 +1868,13 @@
       "id": 53,
       "name": "Broad Sword",
       "description": "Broad, double-edged sword. Good attack power but heavy.",
-      "item": "sword",
+      "type": "sword",
       "character": "monica",
       "abs": 128,
       "sp": 3,
       "combo": 5,
-      "type": "",
+      "attack_type": "",
       "ability": [],
-      "build_up": [
-        "Sax",
-        "Kitchen Knife",
-        "Wise Owl Sword"
-      ],
       "base_stats": {
         "at": 22,
         "fl": 0,
@@ -2053,16 +1904,13 @@
       "id": 54,
       "name": "Choora",
       "description": "Short sword with a beautifully-patterned blade.",
-      "item": "sword",
+      "type": "sword",
       "character": "monica",
       "abs": 224,
       "sp": 4,
       "combo": 6,
-      "type": "",
+      "attack_type": "",
       "ability": [],
-      "build_up": [
-        "Small Sword"
-      ],
       "base_stats": {
         "at": 55,
         "fl": 0,
@@ -2092,17 +1940,13 @@
       "id": 55,
       "name": "Chopper",
       "description": "Short, easy-to-handle sword.",
-      "item": "sword",
+      "type": "sword",
       "character": "monica",
       "abs": 160,
       "sp": 4,
       "combo": 6,
-      "type": "",
+      "attack_type": "",
       "ability": [],
-      "build_up": [
-        "Dusack",
-        "Choora"
-      ],
       "base_stats": {
         "at": 33,
         "fl": 0,
@@ -2132,17 +1976,16 @@
       "id": 56,
       "name": "Chronicle 2",
       "description": "Manipulates time. Surpasses even the Chronicle Sword.",
-      "item": "sword",
+      "type": "sword",
       "character": "monica",
       "abs": 416,
       "sp": 6,
       "combo": 5,
-      "type": "",
+      "attack_type": "",
       "ability": [
-        "Critical",
-        "Stop"
+        "critical",
+        "stop"
       ],
-      "build_up": [],
       "base_stats": {
         "at": 150,
         "fl": 0,
@@ -2172,17 +2015,14 @@
       "id": 57,
       "name": "Chronicle Sword",
       "description": "Manipulates time. Found between time and space.",
-      "item": "sword",
+      "type": "sword",
       "character": "monica",
       "abs": 352,
       "sp": 6,
       "combo": 5,
-      "type": "",
+      "attack_type": "",
       "ability": [
-        "Stop"
-      ],
-      "build_up": [
-        "Chronicle 2"
+        "stop"
       ],
       "base_stats": {
         "at": 111,
@@ -2213,16 +2053,13 @@
       "id": 58,
       "name": "Claymore",
       "description": "Large, double edged-sword. Heavy but powerful.",
-      "item": "sword",
+      "type": "sword",
       "character": "monica",
       "abs": 288,
       "sp": 4,
       "combo": 4,
-      "type": "",
+      "attack_type": "",
       "ability": [],
-      "build_up": [
-        "Cross Heinder"
-      ],
       "base_stats": {
         "at": 89,
         "fl": 0,
@@ -2252,17 +2089,13 @@
       "id": 59,
       "name": "Cliff Knife",
       "description": "Short sword with hidden magic powers.",
-      "item": "sword",
+      "type": "sword",
       "character": "monica",
       "abs": 128,
       "sp": 3,
       "combo": 6,
-      "type": "",
+      "attack_type": "",
       "ability": [],
-      "build_up": [
-        "Sand Breaker",
-        "Chopper"
-      ],
       "base_stats": {
         "at": 20,
         "fl": 0,
@@ -2292,17 +2125,14 @@
       "id": 60,
       "name": "Cross Heinder",
       "description": "A treasured, double-edged sword with tremendous power.",
-      "item": "sword",
+      "type": "sword",
       "character": "monica",
       "abs": 352,
       "sp": 6,
       "combo": 4,
-      "type": "",
+      "attack_type": "",
       "ability": [
-        "Durable"
-      ],
-      "build_up": [
-        "Sword of Zeus"
+        "durable"
       ],
       "base_stats": {
         "at": 100,
@@ -2333,14 +2163,13 @@
       "id": 61,
       "name": "Dark Cloud",
       "description": "Magic sword with the power of darkness.",
-      "item": "sword",
+      "type": "sword",
       "character": "monica",
       "abs": 416,
       "sp": 6,
       "combo": 6,
-      "type": "",
+      "attack_type": "",
       "ability": [],
-      "build_up": [],
       "base_stats": {
         "at": 150,
         "fl": 99,
@@ -2370,17 +2199,14 @@
       "id": 62,
       "name": "Dark Excalibur",
       "description": "Evil sword that presides over everlasting darkness.",
-      "item": "sword",
+      "type": "sword",
       "character": "monica",
       "abs": 352,
       "sp": 6,
       "combo": 5,
-      "type": "",
+      "attack_type": "",
       "ability": [
-        "Dark"
-      ],
-      "build_up": [
-        "Griffon Fork"
+        "dark"
       ],
       "base_stats": {
         "at": 102,
@@ -2411,18 +2237,15 @@
       "id": 63,
       "name": "Drain Seeker",
       "description": "Demon sword born of a magic spell. Drains enemy power.",
-      "item": "sword",
+      "type": "sword",
       "character": "monica",
       "abs": 224,
       "sp": 4,
       "combo": 5,
-      "type": "",
+      "attack_type": "",
       "ability": [
-        "Absorb",
-        "Poison"
-      ],
-      "build_up": [
-        "Sargatanas"
+        "absorb",
+        "poison"
       ],
       "base_stats": {
         "at": 52,
@@ -2453,16 +2276,13 @@
       "id": 64,
       "name": "Dusack",
       "description": "Wieldy, single-edged sword with a unique design. Sharp.",
-      "item": "sword",
+      "type": "sword",
       "character": "monica",
       "abs": 224,
       "sp": 4,
       "combo": 4,
-      "type": "",
+      "attack_type": "",
       "ability": [],
-      "build_up": [
-        "Claymore"
-      ],
       "base_stats": {
         "at": 54,
         "fl": 0,
@@ -2492,17 +2312,14 @@
       "id": 65,
       "name": "Evilcise",
       "description": "Sword imbued with the power of an evil spirit.",
-      "item": "sword",
+      "type": "sword",
       "character": "monica",
       "abs": 160,
       "sp": 4,
       "combo": 5,
-      "type": "",
+      "attack_type": "",
       "ability": [
-        "Poison"
-      ],
-      "build_up": [
-        "Drain Seeker"
+        "poison"
       ],
       "base_stats": {
         "at": 33,
@@ -2533,16 +2350,13 @@
       "id": 66,
       "name": "Garayan Sword",
       "description": "Probably contains the spirit of Mardan Garayan.",
-      "item": "sword",
+      "type": "sword",
       "character": "monica",
       "abs": 224,
       "sp": 4,
       "combo": 5,
-      "type": "",
+      "attack_type": "",
       "ability": [],
-      "build_up": [
-        "Mardan Garayan"
-      ],
       "base_stats": {
         "at": 42,
         "fl": 50,
@@ -2572,16 +2386,13 @@
       "id": 67,
       "name": "Gladius",
       "description": "Light, one-handed sword. Relatively high attack.",
-      "item": "sword",
+      "type": "sword",
       "character": "monica",
       "abs": 64,
       "sp": 3,
       "combo": 6,
-      "type": "",
+      "attack_type": "",
       "ability": [],
-      "build_up": [
-        "Cliff Knife"
-      ],
       "base_stats": {
         "at": 20,
         "fl": 0,
@@ -2611,16 +2422,13 @@
       "id": 68,
       "name": "Griffon Fork",
       "description": "Made from the feathers of a legendary monster.",
-      "item": "sword",
+      "type": "sword",
       "character": "monica",
       "abs": 416,
       "sp": 6,
       "combo": 5,
-      "type": "",
+      "attack_type": "",
       "ability": [],
-      "build_up": [
-        "Island King"
-      ],
       "base_stats": {
         "at": 148,
         "fl": 0,
@@ -2650,17 +2458,14 @@
       "id": 69,
       "name": "Halloween Blade",
       "description": "Cute sword with a Halloween pumpkin design.",
-      "item": "sword",
+      "type": "sword",
       "character": "monica",
       "abs": 288,
       "sp": 4,
       "combo": 5,
-      "type": "",
+      "attack_type": "",
       "ability": [
-        "Stop"
-      ],
-      "build_up": [
-        "Shining Bravado"
+        "stop"
       ],
       "base_stats": {
         "at": 89,
@@ -2691,18 +2496,13 @@
       "id": 70,
       "name": "Holy Daedalus Blade",
       "description": "The sword Monica's father, King Raybrandt, left her.",
-      "item": "sword",
+      "type": "sword",
       "character": "monica",
       "abs": 224,
       "sp": 4,
       "combo": 4,
-      "type": "",
+      "attack_type": "",
       "ability": [],
-      "build_up": [
-        "Ruler's Sword",
-        "Sun Sword",
-        "7 Branch Sword"
-      ],
       "base_stats": {
         "at": 56,
         "fl": 50,
@@ -2732,14 +2532,13 @@
       "id": 71,
       "name": "Island King",
       "description": "Once used by the great ancient king, Kamehameha.",
-      "item": "sword",
+      "type": "sword",
       "character": "monica",
       "abs": 416,
       "sp": 6,
       "combo": 4,
-      "type": "",
+      "attack_type": "",
       "ability": [],
-      "build_up": [],
       "base_stats": {
         "at": 150,
         "fl": 0,
@@ -2769,16 +2568,13 @@
       "id": 72,
       "name": "Kitchen Knife",
       "description": "Get good with this and you could be a super chef.",
-      "item": "sword",
+      "type": "sword",
       "character": "monica",
       "abs": 160,
       "sp": 4,
       "combo": 6,
-      "type": "",
+      "attack_type": "",
       "ability": [],
-      "build_up": [
-        "Serpent Slicer"
-      ],
       "base_stats": {
         "at": 32,
         "fl": 0,
@@ -2808,17 +2604,13 @@
       "id": 73,
       "name": "Lamb's Sword",
       "description": "Lamb: As gentle as a lamb? Looks weak, but... Wolf: It looks thirsty for blood. It seems to have grown in power.",
-      "item": "sword",
+      "type": "sword",
       "character": "monica",
       "abs": 288,
       "sp": 4,
       "combo": 6,
-      "type": "",
+      "attack_type": "",
       "ability": [],
-      "build_up": [
-        "Ama no Murakumo",
-        "7th Heaven"
-      ],
       "base_stats": {
         "at": 89,
         "fl": 0,
@@ -2848,17 +2640,13 @@
       "id": 74,
       "name": "Long Sword",
       "description": "Monica's favorite. So-so attack, but easy to use.",
-      "item": "sword",
+      "type": "sword",
       "character": "monica",
       "abs": 64,
       "sp": 3,
       "combo": 5,
-      "type": "",
+      "attack_type": "",
       "ability": [],
-      "build_up": [
-        "Bastard Sword",
-        "Broad Sword"
-      ],
       "base_stats": {
         "at": 15,
         "fl": 0,
@@ -2888,17 +2676,13 @@
       "id": 75,
       "name": "Maneater",
       "description": "A sword that devours the souls of men.",
-      "item": "sword",
+      "type": "sword",
       "character": "monica",
       "abs": 352,
       "sp": 6,
       "combo": 6,
-      "type": "",
+      "attack_type": "",
       "ability": [],
-      "build_up": [
-        "Dark Cloud",
-        "Griffon Fork"
-      ],
       "base_stats": {
         "at": 101,
         "fl": 0,
@@ -2928,16 +2712,15 @@
       "id": 76,
       "name": "Mardan Garayan",
       "description": "Definitely contains the spirit of Mardan Garayan.",
-      "item": "sword",
+      "type": "sword",
       "character": "monica",
       "abs": 352,
       "sp": 6,
       "combo": 4,
-      "type": "",
+      "attack_type": "",
       "ability": [
-        "Heal"
+        "heal"
       ],
-      "build_up": [],
       "base_stats": {
         "at": 79,
         "fl": 120,
@@ -2967,16 +2750,13 @@
       "id": 77,
       "name": "Mardan Sword",
       "description": "Might contain the spirit of Mardan Garayan.",
-      "item": "sword",
+      "type": "sword",
       "character": "monica",
       "abs": 128,
       "sp": 3,
       "combo": 6,
-      "type": "",
+      "attack_type": "",
       "ability": [],
-      "build_up": [
-        "Garayan Sword"
-      ],
       "base_stats": {
         "at": 21,
         "fl": 0,
@@ -3006,14 +2786,13 @@
       "id": 78,
       "name": "Muramasa",
       "description": "Famous sword crafted by great swordsmith Muramasa.",
-      "item": "sword",
+      "type": "sword",
       "character": "monica",
       "abs": 416,
       "sp": 6,
       "combo": 5,
-      "type": "",
+      "attack_type": "",
       "ability": [],
-      "build_up": [],
       "base_stats": {
         "at": 149,
         "fl": 0,
@@ -3043,14 +2822,13 @@
       "id": 79,
       "name": "Royal Sword",
       "description": "Decorative sword with quite an edge.",
-      "item": "sword",
+      "type": "sword",
       "character": "monica",
       "abs": 128,
       "sp": 3,
       "combo": 4,
-      "type": "",
+      "attack_type": "",
       "ability": [],
-      "build_up": [],
       "base_stats": {
         "at": 22,
         "fl": 0,
@@ -3080,18 +2858,14 @@
       "id": 80,
       "name": "Ruler's Sword",
       "description": "Sword once used by the legendary Aga.",
-      "item": "sword",
+      "type": "sword",
       "character": "monica",
       "abs": 288,
       "sp": 4,
       "combo": 5,
-      "type": "",
+      "attack_type": "",
       "ability": [
-        "ABS Up"
-      ],
-      "build_up": [
-        "Cross Heinder",
-        "Chronicle Sword"
+        "abs up"
       ],
       "base_stats": {
         "at": 88,
@@ -3122,17 +2896,14 @@
       "id": 81,
       "name": "Sand Breaker",
       "description": "Rare sword made from desert sand. Easily broken, though.",
-      "item": "sword",
+      "type": "sword",
       "character": "monica",
       "abs": 160,
       "sp": 4,
       "combo": 6,
-      "type": "",
+      "attack_type": "",
       "ability": [
-        "Fragile"
-      ],
-      "build_up": [
-        "Antique Sword"
+        "fragile"
       ],
       "base_stats": {
         "at": 34,
@@ -3163,17 +2934,14 @@
       "id": 82,
       "name": "Sargatanas",
       "description": "Sword of darkness. Once owned by the god of death.",
-      "item": "sword",
+      "type": "sword",
       "character": "monica",
       "abs": 288,
       "sp": 4,
       "combo": 5,
-      "type": "",
+      "attack_type": "",
       "ability": [
-        "Dark"
-      ],
-      "build_up": [
-        "Dark Excalibur"
+        "dark"
       ],
       "base_stats": {
         "at": 90,
@@ -3204,17 +2972,13 @@
       "id": 83,
       "name": "Sax",
       "description": "Single-edged sword that's easy to handle.",
-      "item": "sword",
+      "type": "sword",
       "character": "monica",
       "abs": 160,
       "sp": 4,
       "combo": 6,
-      "type": "",
+      "attack_type": "",
       "ability": [],
-      "build_up": [
-        "Brave Ark",
-        "Antique Sword"
-      ],
       "base_stats": {
         "at": 32,
         "fl": 0,
@@ -3244,18 +3008,13 @@
       "id": 84,
       "name": "Serpent Slicer",
       "description": "A sword bathed crimson in the lifeblood of snakes.",
-      "item": "sword",
+      "type": "sword",
       "character": "monica",
       "abs": 224,
       "sp": 4,
       "combo": 5,
-      "type": "",
+      "attack_type": "",
       "ability": [],
-      "build_up": [
-        "7 Branch Sword",
-        "Tsukikage",
-        "Sargatanas"
-      ],
       "base_stats": {
         "at": 54,
         "fl": 0,
@@ -3285,16 +3044,13 @@
       "id": 85,
       "name": "Shamshir",
       "description": "Distinctive curved blade. Easy to handle.",
-      "item": "sword",
+      "type": "sword",
       "character": "monica",
       "abs": 160,
       "sp": 4,
       "combo": 5,
-      "type": "",
+      "attack_type": "",
       "ability": [],
-      "build_up": [
-        "Dusack"
-      ],
       "base_stats": {
         "at": 33,
         "fl": 0,
@@ -3324,18 +3080,14 @@
       "id": 86,
       "name": "Shining Bravado",
       "description": "Aborbs light and converts it into slashing power.",
-      "item": "sword",
+      "type": "sword",
       "character": "monica",
       "abs": 352,
       "sp": 6,
       "combo": 4,
-      "type": "",
+      "attack_type": "",
       "ability": [
-        "Heal"
-      ],
-      "build_up": [
-        "Island King",
-        "Atlamillia Sword"
+        "heal"
       ],
       "base_stats": {
         "at": 99,
@@ -3366,17 +3118,14 @@
       "id": 87,
       "name": "Small Sword",
       "description": "Small Japanese sword. Wieldy and devastatingly sharp.",
-      "item": "sword",
+      "type": "sword",
       "character": "monica",
       "abs": 288,
       "sp": 4,
       "combo": 6,
-      "type": "",
+      "attack_type": "",
       "ability": [
-        "Critical"
-      ],
-      "build_up": [
-        "Maneater"
+        "critical"
       ],
       "base_stats": {
         "at": 89,
@@ -3407,18 +3156,13 @@
       "id": 88,
       "name": "Sun Sword",
       "description": "Darkness-slicing sword. Legendary.",
-      "item": "sword",
+      "type": "sword",
       "character": "monica",
       "abs": 288,
       "sp": 4,
       "combo": 4,
-      "type": "",
+      "attack_type": "",
       "ability": [],
-      "build_up": [
-        "Chronicle Sword",
-        "Big Bang",
-        "Shining Bravado"
-      ],
       "base_stats": {
         "at": 90,
         "fl": 99,
@@ -3448,16 +3192,13 @@
       "id": 89,
       "name": "Sword of Zeus",
       "description": "Sword of immeasurable power. Once used by the great god.",
-      "item": "sword",
+      "type": "sword",
       "character": "monica",
       "abs": 416,
       "sp": 6,
       "combo": 4,
-      "type": "",
+      "attack_type": "",
       "ability": [],
-      "build_up": [
-        "Island King"
-      ],
       "base_stats": {
         "at": 147,
         "fl": 0,
@@ -3487,16 +3228,13 @@
       "id": 90,
       "name": "Tsukikage",
       "description": "A sword blessed by the power of moonlight.",
-      "item": "sword",
+      "type": "sword",
       "character": "monica",
       "abs": 288,
       "sp": 4,
       "combo": 5,
-      "type": "",
+      "attack_type": "",
       "ability": [],
-      "build_up": [
-        "Ama no Murakumo"
-      ],
       "base_stats": {
         "at": 88,
         "fl": 0,
@@ -3526,18 +3264,14 @@
       "id": 91,
       "name": "Wise Owl Sword",
       "description": "Legendary sword made by the white-bearded owl's artisan.",
-      "item": "sword",
+      "type": "sword",
       "character": "monica",
       "abs": 160,
       "sp": 4,
       "combo": 5,
-      "type": "",
+      "attack_type": "",
       "ability": [
-        "Poverty"
-      ],
-      "build_up": [
-        "Lamb's Sword",
-        "Small Sword"
+        "poverty"
       ],
       "base_stats": {
         "at": 30,
@@ -3568,16 +3302,13 @@
       "id": 92,
       "name": "Angel Shooter",
       "description": "Armband often worn by clergymen.",
-      "item": "bracelet",
+      "type": "bracelet",
       "character": "monica",
       "abs": 416,
       "sp": 6,
       "combo": 0,
-      "type": "",
+      "attack_type": "",
       "ability": [],
-      "build_up": [
-        "Love"
-      ],
       "base_stats": {
         "at": 150,
         "fl": 0,
@@ -3607,16 +3338,13 @@
       "id": 93,
       "name": "Athena's Armlet",
       "description": "Host to the blessed power of the goddess Athena.",
-      "item": "bracelet",
+      "type": "bracelet",
       "character": "monica",
       "abs": 224,
       "sp": 4,
       "combo": 0,
-      "type": "",
+      "attack_type": "",
       "ability": [],
-      "build_up": [
-        "Sun Armlet"
-      ],
       "base_stats": {
         "at": 88,
         "fl": 99,
@@ -3646,18 +3374,14 @@
       "id": 94,
       "name": "Bandit Brassard",
       "description": "Lets you steal enemy's items in battle.",
-      "item": "bracelet",
+      "type": "bracelet",
       "character": "monica",
       "abs": 128,
       "sp": 3,
       "combo": 0,
-      "type": "",
+      "attack_type": "",
       "ability": [
-        "Steal"
-      ],
-      "build_up": [
-        "Crystal Brassard",
-        "Thorn Armlet"
+        "steal"
       ],
       "base_stats": {
         "at": 24,
@@ -3688,17 +3412,13 @@
       "id": 95,
       "name": "Crystal Brassard",
       "description": "Valuable armband made of rare crystal.",
-      "item": "bracelet",
+      "type": "bracelet",
       "character": "monica",
       "abs": 160,
       "sp": 4,
       "combo": 0,
-      "type": "",
+      "attack_type": "",
       "ability": [],
-      "build_up": [
-        "Platinum Brassard",
-        "Pocklekul"
-      ],
       "base_stats": {
         "at": 35,
         "fl": 31,
@@ -3728,16 +3448,13 @@
       "id": 96,
       "name": "Destruction Brassard",
       "description": "Dark armband with the power to destroy all.",
-      "item": "bracelet",
+      "type": "bracelet",
       "character": "monica",
       "abs": 224,
       "sp": 4,
       "combo": 0,
-      "type": "",
+      "attack_type": "",
       "ability": [],
-      "build_up": [
-        "Satan Brassard"
-      ],
       "base_stats": {
         "at": 88,
         "fl": 0,
@@ -3767,14 +3484,13 @@
       "id": 97,
       "name": "Five-Star Armlet",
       "description": "Made in the shape of the ancient royal house' crest.",
-      "item": "bracelet",
+      "type": "bracelet",
       "character": "monica",
       "abs": 416,
       "sp": 6,
       "combo": 0,
-      "type": "",
+      "attack_type": "",
       "ability": [],
-      "build_up": [],
       "base_stats": {
         "at": 150,
         "fl": 100,
@@ -3804,16 +3520,13 @@
       "id": 98,
       "name": "Goddess Brassard",
       "description": "Armband blessed by a goddess.",
-      "item": "bracelet",
+      "type": "bracelet",
       "character": "monica",
       "abs": 352,
       "sp": 6,
       "combo": 0,
-      "type": "",
+      "attack_type": "",
       "ability": [],
-      "build_up": [
-        "Angel Shooter"
-      ],
       "base_stats": {
         "at": 101,
         "fl": 0,
@@ -3843,16 +3556,13 @@
       "id": 99,
       "name": "Gold Brassard",
       "description": "A valuable brassard made of gold.",
-      "item": "bracelet",
+      "type": "bracelet",
       "character": "monica",
       "abs": 128,
       "sp": 3,
       "combo": 0,
-      "type": "",
+      "attack_type": "",
       "ability": [],
-      "build_up": [
-        "Crystal Brassard"
-      ],
       "base_stats": {
         "at": 24,
         "fl": 18,
@@ -3882,16 +3592,15 @@
       "id": 100,
       "name": "Love",
       "description": "Only those that truly understand love can wear it.",
-      "item": "bracelet",
+      "type": "bracelet",
       "character": "monica",
       "abs": 416,
       "sp": 6,
       "combo": 0,
-      "type": "",
+      "attack_type": "",
       "ability": [
-        "Heal"
+        "heal"
       ],
-      "build_up": [],
       "base_stats": {
         "at": 150,
         "fl": 0,
@@ -3921,17 +3630,13 @@
       "id": 101,
       "name": "Magic Brassard",
       "description": "Magical armband.",
-      "item": "bracelet",
+      "type": "bracelet",
       "character": "monica",
       "abs": 64,
       "sp": 3,
       "combo": 0,
-      "type": "",
+      "attack_type": "",
       "ability": [],
-      "build_up": [
-        "Gold Brassard",
-        "Bandit Brassard"
-      ],
       "base_stats": {
         "at": 14,
         "fl": 10,
@@ -3961,17 +3666,14 @@
       "id": 102,
       "name": "Mobius Bangle",
       "description": "Absorbs power from infinite reaches of time and space.",
-      "item": "bracelet",
+      "type": "bracelet",
       "character": "monica",
       "abs": 416,
       "sp": 6,
       "combo": 0,
-      "type": "",
+      "attack_type": "",
       "ability": [
-        "Durable"
-      ],
-      "build_up": [
-        "Love"
+        "durable"
       ],
       "base_stats": {
         "at": 150,
@@ -4002,16 +3704,13 @@
       "id": 103,
       "name": "Moon Armlet",
       "description": "Highly magical armlet made from the Moon Stone.",
-      "item": "bracelet",
+      "type": "bracelet",
       "character": "monica",
       "abs": 224,
       "sp": 4,
       "combo": 0,
-      "type": "",
+      "attack_type": "",
       "ability": [],
-      "build_up": [
-        "Star Armlet"
-      ],
       "base_stats": {
         "at": 88,
         "fl": 0,
@@ -4041,19 +3740,14 @@
       "id": 104,
       "name": "Platinum Brassard",
       "description": "Sturdy armband with strong magic.",
-      "item": "bracelet",
+      "type": "bracelet",
       "character": "monica",
       "abs": 224,
       "sp": 4,
       "combo": 0,
-      "type": "",
+      "attack_type": "",
       "ability": [
-        "Wealth"
-      ],
-      "build_up": [
-        "Athena's Armlet",
-        "Spirit Brassard",
-        "Destruction Brassard"
+        "wealth"
       ],
       "base_stats": {
         "at": 55,
@@ -4084,19 +3778,14 @@
       "id": 105,
       "name": "Pocklekul",
       "description": "Magical armband made to honor the forest dwarves.",
-      "item": "bracelet",
+      "type": "bracelet",
       "character": "monica",
       "abs": 224,
       "sp": 4,
       "combo": 0,
-      "type": "",
+      "attack_type": "",
       "ability": [
-        "Wealth"
-      ],
-      "build_up": [
-        "Athena's Armlet",
-        "Spirit Brassard",
-        "Moon Armlet"
+        "wealth"
       ],
       "base_stats": {
         "at": 55,
@@ -4127,17 +3816,13 @@
       "id": 106,
       "name": "Satan Brassard",
       "description": "Armband said to have been forged by Satan.",
-      "item": "bracelet",
+      "type": "bracelet",
       "character": "monica",
       "abs": 352,
       "sp": 6,
       "combo": 0,
-      "type": "",
+      "attack_type": "",
       "ability": [],
-      "build_up": [
-        "Mobius Bangle",
-        "Five-Star Armlet"
-      ],
       "base_stats": {
         "at": 101,
         "fl": 100,
@@ -4167,16 +3852,13 @@
       "id": 107,
       "name": "Spirit Brassard",
       "description": "Phantom armband. Forged by spirits.",
-      "item": "bracelet",
+      "type": "bracelet",
       "character": "monica",
       "abs": 224,
       "sp": 4,
       "combo": 0,
-      "type": "",
+      "attack_type": "",
       "ability": [],
-      "build_up": [
-        "Goddess Brassard"
-      ],
       "base_stats": {
         "at": 88,
         "fl": 0,
@@ -4206,16 +3888,13 @@
       "id": 108,
       "name": "Star Armlet",
       "description": "Magical armlet that captures the stars' brightness.",
-      "item": "bracelet",
+      "type": "bracelet",
       "character": "monica",
       "abs": 352,
       "sp": 6,
       "combo": 0,
-      "type": "",
+      "attack_type": "",
       "ability": [],
-      "build_up": [
-        "Five-Star Armlet"
-      ],
       "base_stats": {
         "at": 101,
         "fl": 115,
@@ -4245,17 +3924,13 @@
       "id": 109,
       "name": "Sun Armlet",
       "description": "Legendary armlet made of sunlight changed into metal.",
-      "item": "bracelet",
+      "type": "bracelet",
       "character": "monica",
       "abs": 352,
       "sp": 6,
       "combo": 0,
-      "type": "",
+      "attack_type": "",
       "ability": [],
-      "build_up": [
-        "Mobius Bangle",
-        "Angel Shooter"
-      ],
       "base_stats": {
         "at": 101,
         "fl": 125,
@@ -4285,19 +3960,15 @@
       "id": 110,
       "name": "Thorn Armlet",
       "description": "Armlet of woven thorns.",
-      "item": "bracelet",
+      "type": "bracelet",
       "character": "monica",
       "abs": 160,
       "sp": 4,
       "combo": 0,
-      "type": "",
+      "attack_type": "",
       "ability": [
-        "Poverty",
-        "ABS Up"
-      ],
-      "build_up": [
-        "Pocklekul",
-        "Moon Armlet"
+        "poverty",
+        "abs up"
       ],
       "base_stats": {
         "at": 35,
@@ -4323,6 +3994,524 @@
         "be": 60,
         "sc": 60
       }
+    }
+  ],
+  "build_up": [
+    {
+      "from": 1,
+      "to": 5
+    },
+    {
+      "from": 1,
+      "to": 15
+    },
+    {
+      "from": 3,
+      "to": 4
+    },
+    {
+      "from": 4,
+      "to": 8
+    },
+    {
+      "from": 5,
+      "to": 12
+    },
+    {
+      "from": 6,
+      "to": 3
+    },
+    {
+      "from": 6,
+      "to": 2
+    },
+    {
+      "from": 8,
+      "to": 10
+    },
+    {
+      "from": 9,
+      "to": 2
+    },
+    {
+      "from": 11,
+      "to": 13
+    },
+    {
+      "from": 12,
+      "to": 14
+    },
+    {
+      "from": 12,
+      "to": 3
+    },
+    {
+      "from": 13,
+      "to": 7
+    },
+    {
+      "from": 14,
+      "to": 11
+    },
+    {
+      "from": 15,
+      "to": 5
+    },
+    {
+      "from": 16,
+      "to": 6
+    },
+    {
+      "from": 17,
+      "to": 25
+    },
+    {
+      "from": 17,
+      "to": 30
+    },
+    {
+      "from": 18,
+      "to": 33
+    },
+    {
+      "from": 19,
+      "to": 29
+    },
+    {
+      "from": 19,
+      "to": 34
+    },
+    {
+      "from": 20,
+      "to": 24
+    },
+    {
+      "from": 21,
+      "to": 17
+    },
+    {
+      "from": 22,
+      "to": 19
+    },
+    {
+      "from": 23,
+      "to": 26
+    },
+    {
+      "from": 25,
+      "to": 26
+    },
+    {
+      "from": 25,
+      "to": 29
+    },
+    {
+      "from": 26,
+      "to": 31
+    },
+    {
+      "from": 27,
+      "to": 20
+    },
+    {
+      "from": 29,
+      "to": 20
+    },
+    {
+      "from": 30,
+      "to": 35
+    },
+    {
+      "from": 31,
+      "to": 32
+    },
+    {
+      "from": 33,
+      "to": 17
+    },
+    {
+      "from": 33,
+      "to": 22
+    },
+    {
+      "from": 34,
+      "to": 28
+    },
+    {
+      "from": 35,
+      "to": 27
+    },
+    {
+      "from": 38,
+      "to": 37
+    },
+    {
+      "from": 39,
+      "to": 38
+    },
+    {
+      "from": 41,
+      "to": 39
+    },
+    {
+      "from": 42,
+      "to": 39
+    },
+    {
+      "from": 44,
+      "to": 71
+    },
+    {
+      "from": 45,
+      "to": 78
+    },
+    {
+      "from": 45,
+      "to": 61
+    },
+    {
+      "from": 46,
+      "to": 43
+    },
+    {
+      "from": 46,
+      "to": 69
+    },
+    {
+      "from": 48,
+      "to": 53
+    },
+    {
+      "from": 49,
+      "to": 85
+    },
+    {
+      "from": 49,
+      "to": 81
+    },
+    {
+      "from": 50,
+      "to": 47
+    },
+    {
+      "from": 51,
+      "to": 65
+    },
+    {
+      "from": 52,
+      "to": 58
+    },
+    {
+      "from": 52,
+      "to": 80
+    },
+    {
+      "from": 53,
+      "to": 83
+    },
+    {
+      "from": 53,
+      "to": 72
+    },
+    {
+      "from": 53,
+      "to": 91
+    },
+    {
+      "from": 54,
+      "to": 87
+    },
+    {
+      "from": 55,
+      "to": 64
+    },
+    {
+      "from": 55,
+      "to": 54
+    },
+    {
+      "from": 57,
+      "to": 56
+    },
+    {
+      "from": 58,
+      "to": 60
+    },
+    {
+      "from": 59,
+      "to": 81
+    },
+    {
+      "from": 59,
+      "to": 55
+    },
+    {
+      "from": 60,
+      "to": 89
+    },
+    {
+      "from": 62,
+      "to": 68
+    },
+    {
+      "from": 63,
+      "to": 82
+    },
+    {
+      "from": 64,
+      "to": 58
+    },
+    {
+      "from": 65,
+      "to": 63
+    },
+    {
+      "from": 66,
+      "to": 76
+    },
+    {
+      "from": 67,
+      "to": 59
+    },
+    {
+      "from": 68,
+      "to": 71
+    },
+    {
+      "from": 69,
+      "to": 86
+    },
+    {
+      "from": 70,
+      "to": 80
+    },
+    {
+      "from": 70,
+      "to": 88
+    },
+    {
+      "from": 70,
+      "to": 43
+    },
+    {
+      "from": 72,
+      "to": 84
+    },
+    {
+      "from": 73,
+      "to": 45
+    },
+    {
+      "from": 73,
+      "to": 44
+    },
+    {
+      "from": 74,
+      "to": 49
+    },
+    {
+      "from": 74,
+      "to": 53
+    },
+    {
+      "from": 75,
+      "to": 61
+    },
+    {
+      "from": 75,
+      "to": 68
+    },
+    {
+      "from": 77,
+      "to": 66
+    },
+    {
+      "from": 80,
+      "to": 60
+    },
+    {
+      "from": 80,
+      "to": 57
+    },
+    {
+      "from": 81,
+      "to": 46
+    },
+    {
+      "from": 82,
+      "to": 62
+    },
+    {
+      "from": 83,
+      "to": 52
+    },
+    {
+      "from": 83,
+      "to": 46
+    },
+    {
+      "from": 84,
+      "to": 43
+    },
+    {
+      "from": 84,
+      "to": 90
+    },
+    {
+      "from": 84,
+      "to": 82
+    },
+    {
+      "from": 85,
+      "to": 64
+    },
+    {
+      "from": 86,
+      "to": 71
+    },
+    {
+      "from": 86,
+      "to": 47
+    },
+    {
+      "from": 87,
+      "to": 75
+    },
+    {
+      "from": 88,
+      "to": 57
+    },
+    {
+      "from": 88,
+      "to": 50
+    },
+    {
+      "from": 88,
+      "to": 86
+    },
+    {
+      "from": 89,
+      "to": 71
+    },
+    {
+      "from": 90,
+      "to": 45
+    },
+    {
+      "from": 91,
+      "to": 73
+    },
+    {
+      "from": 91,
+      "to": 87
+    },
+    {
+      "from": 92,
+      "to": 100
+    },
+    {
+      "from": 93,
+      "to": 109
+    },
+    {
+      "from": 94,
+      "to": 95
+    },
+    {
+      "from": 94,
+      "to": 110
+    },
+    {
+      "from": 95,
+      "to": 104
+    },
+    {
+      "from": 95,
+      "to": 105
+    },
+    {
+      "from": 96,
+      "to": 106
+    },
+    {
+      "from": 98,
+      "to": 92
+    },
+    {
+      "from": 99,
+      "to": 95
+    },
+    {
+      "from": 101,
+      "to": 99
+    },
+    {
+      "from": 101,
+      "to": 94
+    },
+    {
+      "from": 102,
+      "to": 100
+    },
+    {
+      "from": 103,
+      "to": 108
+    },
+    {
+      "from": 104,
+      "to": 93
+    },
+    {
+      "from": 104,
+      "to": 107
+    },
+    {
+      "from": 104,
+      "to": 96
+    },
+    {
+      "from": 105,
+      "to": 93
+    },
+    {
+      "from": 105,
+      "to": 107
+    },
+    {
+      "from": 105,
+      "to": 103
+    },
+    {
+      "from": 106,
+      "to": 102
+    },
+    {
+      "from": 106,
+      "to": 97
+    },
+    {
+      "from": 107,
+      "to": 98
+    },
+    {
+      "from": 108,
+      "to": 97
+    },
+    {
+      "from": 109,
+      "to": 102
+    },
+    {
+      "from": 109,
+      "to": 92
+    },
+    {
+      "from": 110,
+      "to": 105
+    },
+    {
+      "from": 110,
+      "to": 103
     }
   ]
 }

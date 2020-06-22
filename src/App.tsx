@@ -1,12 +1,10 @@
 import * as React from "react";
-import { Provider } from "react-redux";
-import { store } from "./redux/Store";
 import { Router } from "./Router";
+import { CssBaseline } from '@material-ui/core';
 
 export const App: React.FC = () => (
   <div id="app-root">
-    <Provider store={store}>
-      <Router />
-    </Provider>
+    <CssBaseline />
+    <Router />
   </div>
 );

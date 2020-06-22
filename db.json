@@ -1381,22 +1381,6 @@
       }
     },
     {
-      "id": 36,
-      "description": "",
-      "item": "gun",
-      "character": "max",
-      "abs": null,
-      "sp": null,
-      "combo": 0,
-      "type": "",
-      "ability": [
-        null
-      ],
-      "build_up": [
-        null
-      ]
-    },
-    {
       "id": 37,
       "name": "Albatross",
       "description": "Spheda club. Good for long and curved shots.",
@@ -2823,7 +2807,7 @@
     {
       "id": 73,
       "name": "Lamb's Sword",
-      "description": "Lamb: As gentle as a lamb? Looks weak, but… Wolf: It looks thirsty for blood. It seems to have grown in power.",
+      "description": "Lamb: As gentle as a lamb? Looks weak, but... Wolf: It looks thirsty for blood. It seems to have grown in power.",
       "item": "sword",
       "character": "monica",
       "abs": 288,

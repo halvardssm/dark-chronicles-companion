@@ -1,10 +1,12 @@
-import * as React from "react";
-import { Router } from "./Router";
-import { CssBaseline } from '@material-ui/core';
+import * as React from "react"
+import { Router } from "./Router"
+import { CssBaseline, Container } from '@material-ui/core'
+import { Header } from './components/Header'
 
 export const App: React.FC = () => (
-  <div id="app-root">
-    <CssBaseline />
-    <Router />
-  </div>
-);
+	<React.Fragment>
+		<CssBaseline />
+
+		<Router />
+	</React.Fragment>
+)
